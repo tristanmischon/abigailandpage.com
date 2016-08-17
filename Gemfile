@@ -7,6 +7,8 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 
 # Windows does not come with time zone data
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
+gem 'rake', '~> 10.4'
+gem 'rspec', '~> 3.4'
 
 # Middleman Gems
 gem 'middleman', '>= 4.0.0'
